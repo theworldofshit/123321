@@ -1,0 +1,25 @@
+﻿<Window x:Class="ImagesV0._2.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImagesV0._2"
+        mc:Ignorable="d"
+      Title="Login" Height="300" Width="400" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="label" Content="Welcome!" HorizontalAlignment="Left" Margin="139,20,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="label1" Content="Login" HorizontalAlignment="Left" Margin="68,91,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Password" HorizontalAlignment="Left" Margin="46,136,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="111,136,0,0" VerticalAlignment="Top" Width="174" Height="23"/>
+        <TextBox x:Name="loginenter" HorizontalAlignment="Left" Height="23" Margin="111,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" TextChanged="Loginenter_TextChanged"/>
+        <Button x:Name="rega" Content="Register" HorizontalAlignment="Left" Margin="161,218,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button x:Name="vhod" Content="Log in" HorizontalAlignment="Left" Margin="161,179,0,0" VerticalAlignment="Top" Width="75" Click="Button1_Click"/>
+        <Button x:Name="hidee" Content="WO pass" HorizontalAlignment="Left" Margin="241,179,0,0" VerticalAlignment="Top" Width="75" Click="Button1_Click2" Opacity="0.33"/>
+        <Button x:Name="hidee_Copy" Content="Accounts" HorizontalAlignment="Left" Margin="241,218,0,0" VerticalAlignment="Top" Width="75" Click="Button1_Click23" Opacity="0.33"/>
+        <Button x:Name="butcount" Content="*" HorizontalAlignment="Left" Margin="10,242,0,0" VerticalAlignment="Top" Width="16" Click="Buttcount" Height="16"/>
+        <Label x:Name="count" Content="" HorizontalAlignment="Left" Margin="36,237,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label x:Name="bunnyc" Content="" HorizontalAlignment="Left" Margin="36,196,0,0" VerticalAlignment="Top" Height="67" Width="61"/>
+   
+
+    </Grid>
+</Window>

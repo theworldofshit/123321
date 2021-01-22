@@ -1,0 +1,15 @@
+﻿<Window x:Class="ImagesV0._2.Accounts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImagesV0._2"
+        mc:Ignorable="d"
+        Title="Accounts" Height="269.072" Width="448.969">
+    <Grid>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="164" Margin="10,10,0,0" VerticalAlignment="Top" Width="421" SelectionChanged="DataGrid_SelectionChanged"/>
+        <Button x:Name="ComeBack" Content="ComeBack" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" Width="81" Click="ComeBack_Click"/>
+        <Button x:Name="button" Content="refresh" HorizontalAlignment="Left" Margin="356,191,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>
